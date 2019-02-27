@@ -15,7 +15,7 @@ public class TextWebSocketFrameHandler extends SimpleChannelInboundHandler<TextW
         System.out.println("收到消息: "+textWebSocketFrame.text());
         //普通字符串是发不出去的
         channelHandlerContext.write(new TextWebSocketFrame("服务器时间: " + LocalDateTime.now()));
-        channelHandlerContext.writeAndFlush(new TextWebSocketFrame("服务器地址: " + channelHandlerContext.channel().remoteAddress()));
+        channelHandlerContext.writeAndFlush(new TextWebSocketFrame("客户端地址: " + channelHandlerContext.channel().remoteAddress()));
     }
 
     @Override
