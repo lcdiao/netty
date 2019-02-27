@@ -15,8 +15,8 @@ public class MyServerInitializer extends ChannelInitializer<SocketChannel> {
     protected void initChannel(SocketChannel socketChannel) throws Exception {
         ChannelPipeline pipeline = socketChannel.pipeline();
 
-        //在一定时间内没有进行读、写操作就会触发
-        pipeline.addLast(new IdleStateHandler(5,7,10, TimeUnit.SECONDS));
+        //空闲状态检测处理器：在一定时间内没有进行读(5秒)、写（7秒）、读写（3秒）操作就会触发（心跳检测）
+        pipeline.addLast(new IdleStateHandler(5,7,3, TimeUnit.SECONDS));
         pipeline.addLast(new MyServerHandler());
     }
 }

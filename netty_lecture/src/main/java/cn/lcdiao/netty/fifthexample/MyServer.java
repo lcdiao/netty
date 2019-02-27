@@ -1,4 +1,4 @@
-package cn.lcdiao.netty.fourthexample;
+package cn.lcdiao.netty.fifthexample;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -8,23 +8,22 @@ import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 
+import java.net.InetSocketAddress;
+
 /**
- * Created by diao on 2019/2/26
+ * Created by diao on 2019/2/27
  */
 public class MyServer {
-    //测试时用thirdexample的client测试
     public static void main(String[] args) throws Exception {
         EventLoopGroup bossGroup = new NioEventLoopGroup();
         EventLoopGroup workerGroup = new NioEventLoopGroup();
         try {
             ServerBootstrap serverBootstrap = new ServerBootstrap();
             serverBootstrap.group(bossGroup,workerGroup).channel(NioServerSocketChannel.class).
-                    //handler针对bossGroup        日志处理器
                     handler(new LoggingHandler(LogLevel.INFO)).
-                    //childHandler针对workerGroup
-                    childHandler(new MyServerInitializer());
+                    childHandler(new WebSocketChannelInitializer());
 
-            ChannelFuture channelFuture = serverBootstrap.bind(8899).sync();
+            ChannelFuture channelFuture = serverBootstrap.bind(new InetSocketAddress(8899)).sync();
             channelFuture.channel().closeFuture().sync();
         }finally {
             bossGroup.shutdownGracefully();
