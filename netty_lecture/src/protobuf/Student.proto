@@ -1,0 +1,46 @@
+syntax = "proto2";
+
+package cn.lcdiao.protobuf;
+
+//加快速度
+option optimize_for = SPEED;
+//可以与上面的package不一致
+option java_package = "cn.lcdiao.netty.sixthexample";
+option java_outer_classname = "MyDataInfo";
+
+message MyMessage{
+
+    enum DataType{
+        PersionType = 1;
+        DogType = 2;
+        CatType = 3;
+    }
+
+    required DataType data_type = 1;
+
+    //有多个可选字段时最多只有一个字段被设值，其他字段会被清空,能有效减少空间
+    oneof dataBody {
+        Person person = 2;
+        Dog dog = 3;
+        Cat cat = 4;
+    }
+}
+
+message Person {
+    optional string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+
+
+}
+
+
+message Dog {
+    optional string name = 1;
+    optional int32 age = 2;
+}
+
+message Cat {
+    optional string name = 1;
+    optional string city = 2;
+}
