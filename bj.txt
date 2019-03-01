@@ -1,0 +1,103 @@
+解压protoc-3.7.0-rc-3-win64.zip
+
+把protoc.exe所在目录（如：D:\protoc-3.7.0-rc-3-win64\bin）保存到Path
+
+cmd下输入protoc --version查看版本
+
+ctrl+shift+a	输入Plugins，下载Protobuf Support插件
+
+在src下创建protobuf文件夹，创建Student.proto文件
+输入
+syntax = "proto2";
+
+package cn.lcdiao.protobuf;
+
+//加快速度
+option optimize_for = SPEED;
+//可以与上面的package不一致
+option java_package = "cn.lcdiao.protobuf";
+option java_outer_classname = "DataInfo";
+
+message Student {
+    required string name = 1;
+    optional int32 age = 2;
+    optional string address = 3;
+}
+
+
+
+在idea底下的Terminal输入命令：protoc --java_out=src/main/java src/protobuf/Student.proto
+会自动在src/main/java下创建cn.lcdiao.protobuf.DataInfo.java（根据java_package和java_outer_classname创建）
+
+
+
+测试protobuf
+public class ProtoBufTest {
+    public static void main(String[] args) throws Exception{
+        DataInfo.Student student = DataInfo.Student.newBuilder().
+                setName("张三").setAge(20).setAddress("北京").build();
+        //将对象转为字节数组(意义:字节数组可以在网络上传输)
+        byte[] student2ByteArray = student.toByteArray();
+
+        //反序列化为java对象(不同语言也可转换)
+        DataInfo.Student student2 = DataInfo.Student.parseFrom(student2ByteArray);
+
+        System.out.println(student2);
+        System.out.println(student2.getName());
+        System.out.println(student2.getAge());
+        System.out.println(student2.getAddress());
+    }
+}
+
+
+
+
+
+
+
+
+
+
+thrift
+在http://www.apache.org/dyn/closer.cgi?path=/thrift/0.12.0/thrift-0.12.0.exe
+安装thrift-0.12.0.exe
+
+将thrift.exe（thrift-0.12.0.exe改名后）的目录（如D:\thrift）保存到Path
+
+输入thrift -version查看版本
+
+
+编写data.thrift文件
+namespace java thrift.generated
+
+//取别名
+typedef i16 shori
+typedef i32 int
+typedef i64 long
+typedef bool boolean
+typedef string String
+
+struct Person {
+    1:optional String username,
+    2:optional int age,
+    3:optional boolean married
+}
+
+exception DataException {
+    1:optional String message,
+    2:optional String callStack,
+    3:optional String date
+}
+
+service PersonService {
+    Person getPersionByUsername(1: required String username)throws (1:DataException dataException),
+    void savePerson(1: required Person person) throws (1:DataException dataException)
+}
+
+
+
+Terminal下输入命令：thrift --gen java src/thrift/data.thrift
+会在项目下生成gen-java文件夹
+
+
+

@@ -4,12 +4,7 @@
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4606867b-4043-4e77-ab6a-a570d2be0656" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/thrift/data.thrift" beforeDir="false" afterPath="$PROJECT_DIR$/src/thrift/data.thrift" afterDir="false" />
-    </list>
+    <list default="true" id="4606867b-4043-4e77-ab6a-a570d2be0656" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/../../.gradle/" />
     <ignored path="$PROJECT_DIR$/../../build/" />
     <ignored path="$PROJECT_DIR$/../../out/" />
@@ -27,7 +22,7 @@
     <session id="-514181566">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="7" />
           <entry key="project.open.time.7" value="1" />
@@ -111,8 +106,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/netty/thrift/ThriftClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="399">
+              <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -322,7 +317,7 @@
     <property name="SearchEverywhereHistoryKey" value="st&#9;FILE&#9;file://D:/GitHub/netty/netty_lecture/src/main/java/cn/lcdiao/netty/firstexample" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551412297885" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551423128332" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -453,7 +448,7 @@
       <workItem from="1551317886407" duration="660000" />
       <workItem from="1551318561204" duration="12427000" />
       <workItem from="1551346055212" duration="611000" />
-      <workItem from="1551406129059" duration="6761000" />
+      <workItem from="1551406129059" duration="7649000" />
     </task>
     <servers />
   </component>
@@ -463,7 +458,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64622000" />
+    <option name="totallyTimeSpent" value="65510000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -476,7 +471,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1274" y="1" width="1297" height="1407" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28860146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -487,7 +481,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3299293" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32757267" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32757267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3998429" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -880,8 +874,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/netty/thrift/ThriftClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="399">
+          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
