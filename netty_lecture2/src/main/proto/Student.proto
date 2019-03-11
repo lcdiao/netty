@@ -7,10 +7,15 @@ option java_outer_classname = "StudentProto";
 //是否生成多个文件
 option java_multiple_files = true;
 
+//使用gradle generateProto 创建对象,保存在build/generated/source/proto/main/下
 service StudentService {
     rpc GetRealNameByUsername(MyRequest) returns (MyResponse){}
 
-    rpc GetStudentByAge(int32) returns (stream StudentResponse){}
+    //请求和响应必须是message类型
+    //rpc GetStudentByAge(int32) returns (stream StudentResponse){}
+    rpc GetStudentByAge(StudentRequest) returns (stream StudentResponse){}
+
+    rpc GetStudentsWrapperByAges(stream StudentRequest) returns (StudentResponseList){}
 }
 
 message MyRequest {
@@ -20,10 +25,17 @@ message MyResponse {
     string realname = 2;
 }
 
+message StudentRequest {
+    int32 age = 1;
+}
+
 message StudentResponse {
     string name = 1;
     int32 age = 2;
     string city = 3;
 }
 
-//使用gradle generateProto 创建对象,保存在build/generated/source/proto/main/下
+message StudentResponseList {
+    //由StudentResponse组成的集合
+    repeated StudentResponse studentResponse = 1;
+}
