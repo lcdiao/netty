@@ -3,6 +3,8 @@ package cn.lcdiao.grpc;
 import cn.lcdiao.proto.*;
 import io.grpc.stub.StreamObserver;
 
+import java.util.UUID;
+
 /**
  * Created by diao on 2019/3/11
  */
@@ -52,6 +54,29 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
                         .addStudentResponse(studentResponse).addStudentResponse(studentResponse2).build();
 
                 responseObserver.onNext(studentResponseList);
+                responseObserver.onCompleted();
+            }
+        };
+    }
+
+    //双向流式数据通信
+    @Override
+    public StreamObserver<StreamRequest> biTalk(StreamObserver<StreamResponse> responseObserver) {
+        return new StreamObserver<StreamRequest>() {
+            @Override
+            public void onNext(StreamRequest value) {
+                System.out.println(value.getRequestInfo());
+
+                responseObserver.onNext(StreamResponse.newBuilder().setResponseInfo(UUID.randomUUID().toString()).build());
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                System.out.println(t.getMessage());
+            }
+
+            @Override
+            public void onCompleted() {
                 responseObserver.onCompleted();
             }
         };
