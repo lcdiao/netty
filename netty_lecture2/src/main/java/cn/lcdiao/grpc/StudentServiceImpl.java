@@ -29,8 +29,31 @@ public class StudentServiceImpl extends StudentServiceGrpc.StudentServiceImplBas
         responseObserver.onCompleted();
     }
 
+    //客户端以流式向服务器发送请求
     @Override
     public StreamObserver<StudentRequest> getStudentsWrapperByAges(StreamObserver<StudentResponseList> responseObserver) {
-        return super.getStudentsWrapperByAges(responseObserver);
+        return new StreamObserver<StudentRequest>() {
+            @Override
+            public void onNext(StudentRequest value) {
+                System.out.println("onNext:" + value.getAge());
+            }
+
+            @Override
+            public void onError(Throwable t) {
+                System.out.println(t.getMessage());
+            }
+
+            @Override
+            public void onCompleted() {
+                StudentResponse studentResponse = StudentResponse.newBuilder().setName("张三").setAge(22).setCity("西安").build();
+                StudentResponse studentResponse2 = StudentResponse.newBuilder().setName("李四").setAge(21).setCity("汕头").build();
+
+                StudentResponseList studentResponseList = StudentResponseList.newBuilder()
+                        .addStudentResponse(studentResponse).addStudentResponse(studentResponse2).build();
+
+                responseObserver.onNext(studentResponseList);
+                responseObserver.onCompleted();
+            }
+        };
     }
 }

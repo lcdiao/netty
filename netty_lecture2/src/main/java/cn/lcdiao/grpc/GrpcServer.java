@@ -23,8 +23,8 @@ public class GrpcServer {
             System.out.println("关闭jvm");
             GrpcServer.this.stop();
         }));
-
-        System.out.println("执行到这里");
+        //没调用上面也可以先执行下面
+        //System.out.println("执行到这里");
     }
 
     private void stop() {
