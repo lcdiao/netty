@@ -14,7 +14,7 @@ public interface StudentResponseListOrBuilder extends
    *
    * <code>repeated .cn.lcdiao.proto.StudentResponse studentResponse = 1;</code>
    */
-  java.util.List<StudentResponse>
+  java.util.List<cn.lcdiao.proto.StudentResponse> 
       getStudentResponseList();
   /**
    * <pre>
@@ -23,7 +23,7 @@ public interface StudentResponseListOrBuilder extends
    *
    * <code>repeated .cn.lcdiao.proto.StudentResponse studentResponse = 1;</code>
    */
-  StudentResponse getStudentResponse(int index);
+  cn.lcdiao.proto.StudentResponse getStudentResponse(int index);
   /**
    * <pre>
    *由StudentResponse组成的集合
@@ -39,7 +39,7 @@ public interface StudentResponseListOrBuilder extends
    *
    * <code>repeated .cn.lcdiao.proto.StudentResponse studentResponse = 1;</code>
    */
-  java.util.List<? extends StudentResponseOrBuilder>
+  java.util.List<? extends cn.lcdiao.proto.StudentResponseOrBuilder> 
       getStudentResponseOrBuilderList();
   /**
    * <pre>
@@ -48,6 +48,6 @@ public interface StudentResponseListOrBuilder extends
    *
    * <code>repeated .cn.lcdiao.proto.StudentResponse studentResponse = 1;</code>
    */
-  StudentResponseOrBuilder getStudentResponseOrBuilder(
-          int index);
+  cn.lcdiao.proto.StudentResponseOrBuilder getStudentResponseOrBuilder(
+      int index);
 }

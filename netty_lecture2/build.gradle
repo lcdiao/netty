@@ -43,9 +43,15 @@ protobuf {
             artifact = 'io.grpc:protoc-gen-grpc-java:1.19.0'
         }
     }
+
+    //指定文件生成的路径，不再生成到build目录！！！
+    generateProtoTasks.generatedFilesBaseDir = "src"
+
     generateProtoTasks {
         all()*.plugins {
-            grpc {}
+            grpc {
+                setOutputSubDir 'java'
+            }
         }
     }
 }

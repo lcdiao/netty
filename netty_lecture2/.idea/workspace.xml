@@ -7,14 +7,50 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/cn/lcdiao/proto/StudentServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/cn/lcdiao/proto/StudentServiceGrpc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentProto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentProto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentProto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentResponseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentResponseList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentServiceGrpc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentServiceGrpc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/grpc/cn/lcdiao/proto/StudentServiceGrpc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/MyRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/MyRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/MyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/MyResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StreamRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StreamRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StreamResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StreamResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentProto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentResponseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentResponseListOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/source/proto/main/java/cn/lcdiao/proto/StudentResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$MethodHandlers.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceBaseDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceBaseDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceBlockingStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceBlockingStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceFileDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceFileDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceFutureStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceFutureStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceImplBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceImplBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceMethodDescriptorSupplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceMethodDescriptorSupplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc$StudentServiceStub.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/cn/lcdiao/proto/StudentServiceGrpc.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/MyRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/MyRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/MyResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/MyResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StreamRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StreamRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StreamResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StreamResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentProto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentRequestOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentResponseList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentResponseListOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentResponseOrBuilder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentServiceGrpc.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/proto/Student.proto" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/proto/Student.proto" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -91,17 +127,19 @@
     <session id="-1015246687">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="3" />
-          <entry key="java" value="22" />
+          <entry key="gradle" value="4" />
+          <entry key="java" value="34" />
           <entry key="local mongodb/test/shop" value="1" />
           <entry key="local mongodb/test/test" value="1" />
           <entry key="local mongodb/test/user" value="1" />
@@ -109,32 +147,34 @@
           <entry key="null/test/test" value="2" />
           <entry key="proto" value="5" />
           <entry key="sql" value="2" />
+          <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="22" />
+          <entry key="Groovy" value="4" />
+          <entry key="JAVA" value="34" />
           <entry key="MONGO" value="6" />
+          <entry key="PLAIN_TEXT" value="6" />
           <entry key="PROTO" value="5" />
           <entry key="Scratch" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="111" />
-          <entry key="java" value="1712" />
-          <entry key="proto" value="1064" />
+          <entry key="gradle" value="225" />
+          <entry key="java" value="3320" />
+          <entry key="proto" value="1090" />
           <entry key="sql" value="13" />
-          <entry key="txt" value="3" />
+          <entry key="txt" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="111" />
-          <entry key="JAVA" value="1712" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="PROTO" value="1064" />
+          <entry key="Groovy" value="225" />
+          <entry key="JAVA" value="3320" />
+          <entry key="PLAIN_TEXT" value="15" />
+          <entry key="PROTO" value="1090" />
           <entry key="Scratch" value="13" />
         </counts>
       </usages-collector>
@@ -143,75 +183,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/StudentServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="61" selection-end-column="14" />
+            <state relative-caret-position="627">
+              <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1498#1499#0" expanded="true" />
-                <element signature="e#1550#1551#0" expanded="true" />
-                <element signature="e#1646#1647#0" expanded="true" />
-                <element signature="e#1698#1699#0" expanded="true" />
-                <element signature="e#2928#2929#0" expanded="true" />
-                <element signature="e#2980#2981#0" expanded="true" />
-                <element signature="e#3057#3058#0" expanded="true" />
-                <element signature="e#3104#3105#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="14" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/MyRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="35" column="63" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="35" selection-end-column="63" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/input2.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest8.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="705">
-              <caret line="93" column="113" selection-start-line="93" selection-start-column="113" selection-end-line="93" selection-end-column="113" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2127#2128#0" expanded="true" />
-                <element signature="e#2179#2180#0" expanded="true" />
-                <element signature="e#2256#2257#0" expanded="true" />
-                <element signature="e#2308#2309#0" expanded="true" />
-                <element signature="e#3272#3273#0" expanded="true" />
-                <element signature="e#3324#3325#0" expanded="true" />
-                <element signature="e#3417#3418#0" expanded="true" />
-                <element signature="e#3469#3470#0" expanded="true" />
-                <element signature="e#3546#3547#0" expanded="true" />
-                <element signature="e#3598#3599#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="211">
+              <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcServer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/output2.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -434,9 +433,9 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="6205992235793" />
+        <entry key="$PROJECT_DIR$" value="6206531860203" />
         <entry key="$PROJECT_DIR$/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="2735436161" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="463052988" />
         <entry key="$PROJECT_DIR$/settings.gradle" value="3351138289" />
         <entry key="$MAVEN_REPOSITORY$/gradle.properties" value="1645988956" />
       </map>
@@ -599,15 +598,25 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/proto/Student.proto" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/2ed1c06a-a28b-4f66-a4f9-61ddd1a68d3b/console.sql" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcServer.java" />
-        <option value="$PROJECT_DIR$/src/main/proto/Student.proto" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/MyRequest.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/StudentServiceGrpc.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcClient.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/Student.proto" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/NioTest2.txt" />
+        <option value="$PROJECT_DIR$/NioTest3.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest6.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest7.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest8.java" />
       </list>
     </option>
   </component>
@@ -637,6 +646,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -687,21 +697,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cn" type="462c0819:PsiDirectoryNode" />
               <item name="lcdiao" type="462c0819:PsiDirectoryNode" />
-              <item name="grpc" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty_lecture2" type="b2602c69:ProjectViewProjectNode" />
               <item name="netty_lecture2" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="proto" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cn" type="462c0819:PsiDirectoryNode" />
+              <item name="lcdiao" type="462c0819:PsiDirectoryNode" />
+              <item name="nio" type="462c0819:PsiDirectoryNode" />
+              <item name="NioTest8" type="1a9f42e2:ClassTreeNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -709,9 +722,9 @@
     <property name="SearchEverywhereHistoryKey" value="usePlaintext&#9;PSI&#9;JAVA://io.grpc.ManagedChannelBuilder#usePlaintext" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552289688027" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552384818667" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springboot-netty/SBM" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -720,14 +733,19 @@
     <property name="settings.editor.selected.configurable" value="preferences.mongoOptions" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GitHub\netty\netty_lecture2\src\main\java\cn\lcdiao\proto" />
-      <recent name="D:\GitHub\netty\netty_lecture2\src\main\java\cn\lcdiao" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\netty\netty_lecture2" />
       <recent name="D:\GitHub\netty\netty_lecture2\src\main\java\cn\lcdiao\proto" />
       <recent name="D:\GitHub\netty\netty_lecture2\src\main\java" />
       <recent name="D:\GitHub\netty\netty_lecture2\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.lcdiao.nio" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub\netty\netty_lecture2" />
+      <recent name="D:\GitHub\netty\netty_lecture2\src\main\java\cn\lcdiao\proto" />
+      <recent name="D:\GitHub\netty\netty_lecture2\src\main\java\cn\lcdiao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -742,13 +760,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GrpcClient">
-    <configuration name="GrpcClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.grpc.GrpcClient" />
+  <component name="RunManager" selected="Application.NioTest8">
+    <configuration name="NioTest4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.NioTest4" />
       <module name="netty_lecture2_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lcdiao.grpc.*" />
+          <option name="PATTERN" value="cn.lcdiao.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -756,12 +774,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GrpcServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.grpc.GrpcServer" />
+    <configuration name="NioTest5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.NioTest5" />
       <module name="netty_lecture2_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.lcdiao.grpc.*" />
+          <option name="PATTERN" value="cn.lcdiao.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -769,54 +787,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="netty_lecture2 [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="clean" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
+    <configuration name="NioTest6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.NioTest6" />
+      <module name="netty_lecture2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lcdiao.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="netty_lecture2 [generateProto]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="generateProto" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <method v="2" />
+    <configuration name="NioTest7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.NioTest7" />
+      <module name="netty_lecture2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lcdiao.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NioTest8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.NioTest8" />
+      <module name="netty_lecture2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lcdiao.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
-      <item itemvalue="Application.GrpcServer" />
-      <item itemvalue="Application.GrpcClient" />
-      <item itemvalue="Gradle.netty_lecture2 [clean]" />
-      <item itemvalue="Gradle.netty_lecture2 [generateProto]" />
+      <item itemvalue="Application.NioTest4" />
+      <item itemvalue="Application.NioTest5" />
+      <item itemvalue="Application.NioTest6" />
+      <item itemvalue="Application.NioTest7" />
+      <item itemvalue="Application.NioTest8" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GrpcClient" />
-        <item itemvalue="Application.GrpcServer" />
-        <item itemvalue="Gradle.netty_lecture2 [generateProto]" />
-        <item itemvalue="Gradle.netty_lecture2 [clean]" />
+        <item itemvalue="Application.NioTest8" />
+        <item itemvalue="Application.NioTest7" />
+        <item itemvalue="Application.NioTest6" />
+        <item itemvalue="Application.NioTest5" />
+        <item itemvalue="Application.NioTest4" />
       </list>
     </recent_temporary>
   </component>
@@ -835,11 +858,14 @@
       <workItem from="1551928988108" duration="1346000" />
       <workItem from="1551944739714" duration="1969000" />
       <workItem from="1552269768441" duration="11762000" />
+      <workItem from="1552290757447" duration="4452000" />
+      <workItem from="1552353352329" duration="7045000" />
+      <workItem from="1552371925701" duration="6169000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24611000" />
+    <option name="totallyTimeSpent" value="42277000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -861,20 +887,20 @@
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3299293" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3299293" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299293" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3299293" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3299293" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3299293" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32914376" />
       <window_info active="true" anchor="bottom" id="Database Console" order="12" visible="true" weight="0.3299293" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3299293" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -906,26 +932,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="189" column="30" lean-forward="true" selection-start-line="189" selection-start-column="30" selection-end-line="189" selection-end-column="30" />
-          <folding>
-            <element signature="e#6385#6386#0" expanded="true" />
-            <element signature="e#6436#6437#0" expanded="true" />
-            <element signature="e#7095#7096#0" expanded="true" />
-            <element signature="e#7130#7131#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -938,56 +944,131 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/proto/MyRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="35" column="63" lean-forward="true" selection-start-line="34" selection-start-column="31" selection-end-line="35" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="49" column="34" lean-forward="true" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="570">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="63" selection-end-line="35" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/StudentServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="60" lean-forward="true" selection-start-line="60" selection-end-line="61" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1498#1499#0" expanded="true" />
-            <element signature="e#1550#1551#0" expanded="true" />
-            <element signature="e#1646#1647#0" expanded="true" />
-            <element signature="e#1698#1699#0" expanded="true" />
-            <element signature="e#2928#2929#0" expanded="true" />
-            <element signature="e#2980#2981#0" expanded="true" />
-            <element signature="e#3057#3058#0" expanded="true" />
-            <element signature="e#3104#3105#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1007">
+          <caret line="60" selection-start-line="60" selection-end-line="61" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/Student.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="608">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="705">
-          <caret line="93" column="113" selection-start-line="93" selection-start-column="113" selection-end-line="93" selection-end-column="113" />
+        <state relative-caret-position="912">
+          <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/grpc/GrpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="49" column="34" selection-start-line="49" selection-start-column="34" selection-end-line="49" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NioTest2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NioTest3.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2127#2128#0" expanded="true" />
-            <element signature="e#2179#2180#0" expanded="true" />
-            <element signature="e#2256#2257#0" expanded="true" />
-            <element signature="e#2308#2309#0" expanded="true" />
-            <element signature="e#3272#3273#0" expanded="true" />
-            <element signature="e#3324#3325#0" expanded="true" />
-            <element signature="e#3417#3418#0" expanded="true" />
-            <element signature="e#3469#3470#0" expanded="true" />
-            <element signature="e#3546#3547#0" expanded="true" />
-            <element signature="e#3598#3599#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="326" column="7" lean-forward="true" selection-start-line="326" selection-start-column="7" selection-end-line="326" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest7.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="53" lean-forward="true" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest6.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest5.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/output2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest8.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="15" column="60" lean-forward="true" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>

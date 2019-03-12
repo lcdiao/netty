@@ -9,14 +9,17 @@ option java_multiple_files = true;
 
 //使用gradle generateProto 创建对象,保存在build/generated/source/proto/main/下
 service StudentService {
+    //单个请求、单个响应
     rpc GetRealNameByUsername(MyRequest) returns (MyResponse){}
 
     //请求和响应必须是message类型
     //rpc GetStudentByAge(int32) returns (stream StudentResponse){}
+    //单个请求、流式响应
     rpc GetStudentByAge(StudentRequest) returns (stream StudentResponse){}
 
+    //流式请求、单个响应
     rpc GetStudentsWrapperByAges(stream StudentRequest) returns (StudentResponseList){}
-
+    //流式请求、流式响应
     rpc BiTalk(stream StreamRequest) returns (stream StreamResponse){}
 }
 
