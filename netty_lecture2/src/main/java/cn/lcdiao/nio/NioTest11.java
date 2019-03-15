@@ -11,7 +11,7 @@ import java.util.Arrays;
 
 /**
  * Created by diao on 2019/3/13
- * 关于Buffer的Scattering和Gathering
+ * 关于Buffer的Scattering和Gathering:处理Buffer数组,数据的分门别类
  */
 public class NioTest11 {
     public static void main(String[] args) throws Exception{
