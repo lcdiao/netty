@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e325dc8e-6b97-49f1-a0bc-5bd4a1b2a1fd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioServer.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -86,14 +86,14 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="3" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="4" />
-          <entry key="java" value="45" />
+          <entry key="java" value="46" />
           <entry key="local mongodb/test/shop" value="1" />
           <entry key="local mongodb/test/test" value="1" />
           <entry key="local mongodb/test/user" value="1" />
@@ -107,7 +107,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="4" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="46" />
           <entry key="MONGO" value="6" />
           <entry key="PLAIN_TEXT" value="7" />
           <entry key="PROTO" value="5" />
@@ -117,7 +117,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="225" />
-          <entry key="java" value="6731" />
+          <entry key="java" value="7949" />
           <entry key="proto" value="1090" />
           <entry key="sql" value="13" />
           <entry key="txt" value="23" />
@@ -126,7 +126,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="225" />
-          <entry key="JAVA" value="6731" />
+          <entry key="JAVA" value="7949" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="PROTO" value="1090" />
           <entry key="Scratch" value="13" />
@@ -139,7 +139,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest12.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="798">
               <caret line="52" column="33" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -151,8 +151,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioServer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="707">
+              <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="743">
+              <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -570,6 +582,7 @@
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/Ts.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest11.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest12.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioServer.java" />
       </list>
     </option>
@@ -665,7 +678,7 @@
     <property name="SearchEverywhereHistoryKey" value="usePlaintext&#9;PSI&#9;JAVA://io.grpc.ManagedChannelBuilder#usePlaintext" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552903114007" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552961893188" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Algorithm/Algorithm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -704,6 +717,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.NioServer">
+    <configuration name="NioClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.NioClient" />
+      <module name="netty_lecture2_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.lcdiao.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NioServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.NioServer" />
       <module name="netty_lecture2_main" />
@@ -756,33 +782,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Ts" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.lcdiao.nio.Ts" />
-      <module name="netty_lecture2_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.lcdiao.nio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.NioTest10" />
-      <item itemvalue="Application.Ts" />
       <item itemvalue="Application.NioTest11" />
       <item itemvalue="Application.NioTest12" />
       <item itemvalue="Application.NioServer" />
+      <item itemvalue="Application.NioClient" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.NioServer" />
+        <item itemvalue="Application.NioClient" />
         <item itemvalue="Application.NioTest12" />
         <item itemvalue="Application.NioTest11" />
         <item itemvalue="Application.NioTest10" />
-        <item itemvalue="Application.Ts" />
       </list>
     </recent_temporary>
   </component>
@@ -809,11 +822,12 @@
       <workItem from="1552616961551" duration="4426000" />
       <workItem from="1552871622250" duration="692000" />
       <workItem from="1552892498742" duration="8577000" />
+      <workItem from="1552958624933" duration="3265000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69533000" />
+    <option name="totallyTimeSpent" value="72798000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -960,9 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,9 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1053,9 +1061,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="10" column="52" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1063,9 +1068,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1085,8 +1087,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioTest12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="798">
           <caret line="52" column="33" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="743">
+          <caret line="85" column="17" lean-forward="true" selection-start-line="85" selection-start-column="17" selection-end-line="85" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1095,8 +1107,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/lcdiao/nio/NioServer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="707">
+          <caret line="110" column="24" selection-start-line="110" selection-start-column="24" selection-end-line="110" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

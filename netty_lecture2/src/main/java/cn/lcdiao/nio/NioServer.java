@@ -81,17 +81,40 @@ public class NioServer {
                                 String receiveMessage = String.valueOf(charset.decode(readBuffer).array());
 
                                 System.out.println(client + ":" + receiveMessage);
+
+                                String senderKey = null;
+                                //获取到发送者的key
+                                for (Map.Entry<String,SocketChannel> entry : clientMap.entrySet()) {
+                                    if (client == entry.getValue()) {
+                                        senderKey = entry.getKey();
+                                        break;
+                                    }
+                                }
+
+                                //得到每一个已经连接的SocketChannel对象并发送信息
+                                for (Map.Entry<String,SocketChannel> entry : clientMap.entrySet()) {
+                                    SocketChannel value = entry.getValue();
+                                    ByteBuffer writeBuffer = ByteBuffer.allocate(1024);
+
+                                    writeBuffer.put((senderKey + ":" + receiveMessage).getBytes());
+                                    writeBuffer.flip();
+
+                                    value.write(writeBuffer);
+                                }
                             }
 
                             //selectionKeys.remove(selectionKey);
                         }
                     } catch (Exception e) {
+                        System.out.println("强制关闭连接");
+                        selectionKey.cancel();
                         e.printStackTrace();
                     }
 
-                    selectionKeys.clear();
-
                 });
+
+                //处理完特定的selection后一定要删除掉
+                selectionKeys.clear();
 
             } catch (Exception e) {
                 e.printStackTrace();
